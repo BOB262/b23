@@ -1,0 +1,98 @@
+// 重置元素element-ui默认css
+// 导航菜单
+.nav-center {
+  .el-menu-item {
+    padding: 0 15px;
+  }
+
+  .el-menu--horizontal > .el-menu-item {
+    height: 40px;
+    line-height: 40px;
+  }
+}
+
+.el-main {
+  position: relative;
+  padding: 10px 20px;
+}
+
+.el-aside {
+  .el-menu {
+    border-right: none;
+  }
+}
+
+.el-table__footer-wrapper tbody td {
+  color: #fff;
+  background-color: #072655;
+}
+
+.alarm-video {
+  .el-dialog__title {
+    font-size: 24px;
+    color: @color-danger;
+  }
+}
+
+// input 样式
+.el-input__inner {
+  color: #fff;
+  background-color: @color-secondary;
+  border-color: @color-secondary;
+  border-radius: 0;
+}
+
+.el-input__inner:hover,
+.el-input__inner:focus {
+  border-color: @content-border-color;
+}
+
+// input
+.el-autocomplete {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+// 搜索列表
+.my-autocomplete {
+  li {
+    padding: 8px 16px;
+    line-height: normal;
+    color: @color-primary;
+
+    .name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .addr {
+      font-size: 12px;
+      color: @color-grey-high;
+    }
+
+    .highlighted .addr {
+      color: #ddd;
+    }
+  }
+}
+
+.el-autocomplete-suggestion{
+  border-color: @content-border-color;
+  border-radius: 0;
+}
+
+.el-autocomplete-suggestion__wrap {
+  background-color: @color-secondary;
+  border: 1px solid @content-border-color;
+  border-radius: 0;
+}
+
+.el-autocomplete-suggestion li.highlighted,
+.el-autocomplete-suggestion li:hover {
+  background-color: transparent;
+  box-shadow: inset 0 0 49px 0 rgba(0, 144, 243, 0.83);
+}
+
+.el-scrollbar__bar {
+  border-radius: 0;
+}

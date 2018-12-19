@@ -1,0 +1,76 @@
+import Vue from 'vue'
+import Router from 'vue-router'
+
+Vue.use(Router)
+
+/**
+ * 路由懒加载 有两种方式
+ * const Layout = () => import('@/components/Layout')
+ * //or
+ * const Layout = resolve => require(['@/pages/layout/Layout'], resolve)
+ */
+
+<<<<<<< HEAD
+// const Layout = () => import('@/components/Layout')
+const home = () => import('@/pages/home/index')
+const map = () => import('@/pages/map')
+=======
+const Layout = () => import('@/pages/layout/Layout')
+const index = () => import('@/pages/home/index')
+
+>>>>>>> 3e4c7dc26e43ddba8bc8ec1d4289ce0ce33454d7
+export default new Router({
+  routes: [
+    // {
+    //   path: '/',
+    //   name: 'HelloWorld',
+    //   component: HelloWorld
+    // },
+    // {
+    //   path: '/',
+    //   name: 'index',
+    //   component: home
+    // },
+    {
+      path: '/',
+      component: Layout,
+      redirect: '/index',
+      name: 'index',
+<<<<<<< HEAD
+      component: home
+    },
+    {
+      path: '/map',
+      name: 'map',
+      component: map
+    },
+    {
+      path: '/index',
+      redirect: '/'
+=======
+      children: [
+        {
+          path: 'index',
+          component: index
+        }
+      ]
+>>>>>>> 3e4c7dc26e43ddba8bc8ec1d4289ce0ce33454d7
+    },
+    {
+      path: '/404',
+      component: () => import('@/pages/404')
+    },
+    {
+      path: '*',
+      redirect: '/404'
+    },
+    {
+      path: '/demo',
+      component: () => import('@/components/card/card')
+    },
+    {
+      path: '/demo1',
+      component: () => import('@/pages/home/components/parking')
+    }
+  ]
+})

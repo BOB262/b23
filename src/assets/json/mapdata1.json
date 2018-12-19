@@ -1,0 +1,116 @@
+{
+  "data": {
+    mapOptions: [{
+        value: '1',
+        label: '北京市 泉湖西路管线项目设备分布'
+      },
+      {
+        value: '2',
+        label: '北京市 泉湖东路管线项目设备分布'
+      }
+    ],
+    mapCenter: [116.108736, 39.793336],
+    markersData: [{
+        id: 1,
+        position: [116.101736, 39.792836],
+        state: '0',
+        info: {
+          scene: 'scene',
+          id: 20181101,
+          dtu: 180,
+          lock: 220,
+          purpose: '电力井',
+          brand: '长力金盟',
+          time: '2018-10-01',
+          location: '北京市丰台区兴隆湖管线项目 西六环辅路附近'
+        }
+      },
+      {
+        id: 2,
+        position: [116.103936, 39.792536],
+        state: '1',
+        info: {
+          scene: 'scene',
+          id: 20181102,
+          dtu: 180,
+          lock: 220,
+          purpose: '电力井',
+          brand: '长力金盟',
+          time: '2018-10-01',
+          location: '北京市丰台区兴隆湖管线项目 西六环辅路附近'
+        }
+      },
+      {
+        id: 3,
+        position: [116.105936, 39.792836],
+        state: '2',
+        info: {
+          scene: 'scene',
+          id: 20181103,
+          dtu: 180,
+          lock: 220,
+          purpose: '电力井',
+          brand: '长力金盟',
+          time: '2018-10-01',
+          location: '北京市丰台区兴隆湖管线项目 西六环辅路附近'
+        }
+      },
+      {
+        id: 4,
+        position: [116.108736, 39.793336],
+        state: '1',
+        info: {
+          scene: 'scene-no',
+          id: 20181104,
+          dtu: 180,
+          lock: 220,
+          purpose: '电力井',
+          brand: '长力金盟',
+          time: '2018-10-01',
+          location: '北京市丰台区兴隆湖管线项目 西六环辅路附近'
+        }
+      },
+      {
+        id: 5,
+        position: [116.111736, 39.793336],
+        state: '1',
+        info: {
+          scene: 'scene-no',
+          id: 20181105,
+          dtu: 180,
+          lock: 220,
+          purpose: '电力井',
+          brand: '长力金盟',
+          time: '2018-10-01',
+          location: '北京市丰台区兴隆湖管线项目 西六环辅路附近'
+        }
+      },
+      {
+        id: 6,
+        position: [116.114736, 39.793636],
+        state: '2',
+        info: {
+          scene: 'scene-no',
+          id: 20181106,
+          dtu: 180,
+          lock: 220,
+          purpose: '电力井',
+          brand: '长力金盟',
+          time: '2018-10-01',
+          location: '北京市丰台区兴隆湖管线项目 西六环辅路附近'
+        }
+      }
+    ],
+    listAlerts: [{
+        id: 20181101,
+        center: [116.105936, 39.792836],
+        location: '北京市丰台区兴隆湖管线项目 西六环辅路附近'
+      },
+      {
+        id: 20181106,
+        center: [116.114736, 39.793636],
+        location: '北京市丰台区兴隆湖管线项目 西六环辅路附近'
+      }
+    ]
+  }
+}
